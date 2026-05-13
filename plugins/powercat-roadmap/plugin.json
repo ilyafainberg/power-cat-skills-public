@@ -1,0 +1,10 @@
+{
+  "name": "powercat-roadmap",
+  "version": "0.1.0",
+  "description": "Generates a customer-facing PPTX overview of key Microsoft Power Platform and Dynamics 365 roadmap features from a comma-separated product list, emphasizing new previews and GA features for the current release wave.",
+  "author": {
+    "name": "Power CAT",
+    "email": "ifain@microsoft.com"
+  },
+  "keywords": ["power-platform", "dynamics-365", "release-plan", "roadmap", "pptx", "presentation", "powercat"]
+}
