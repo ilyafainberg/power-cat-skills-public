@@ -5,18 +5,20 @@ hosting curated plugins from the Power CAT team.
 
 ## Add this marketplace
 
+In Copilot CLI:
 ```bash
-copilot plugin marketplace add https://github.com/ilyafainberg/power-cat-skills-public
-copilot plugin marketplace browse powercat-marketplace
+/plugin marketplace add https://github.com/ilyafainberg/power-cat-skills-public
+/plugin marketplace browse powercat-marketplace
 ```
 
 ## Install a plugin
 
+In Copilot CLI:
 ```bash
-copilot plugin install writing-styles
+/plugin install writing-styles@powercat-marketplace
 ```
 
-After installing, restart the CLI (`/restart`) or reload skills (`/skills`).
+After installing, restart the CLI (`/restart`).
 
 ## Plugins
 
