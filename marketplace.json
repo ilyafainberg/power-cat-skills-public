@@ -20,6 +20,12 @@
       "description": "Evaluates a Power Platform solution design against all 5 pillars of the Power Platform Well-Architected Framework and produces an audience-tailored interactive HTML evaluation artifact.",
       "version": "0.1.0",
       "source": "./plugins/powercat-check-design"
+    },
+    {
+      "name": "powercat-roadmap",
+      "description": "Generates a customer-facing PPTX overview of key Microsoft Power Platform and Dynamics 365 roadmap features from a comma-separated product list, emphasizing new previews and GA features for the current release wave.",
+      "version": "0.1.0",
+      "source": "./plugins/powercat-roadmap"
     }
   ]
 }
