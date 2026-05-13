@@ -1,0 +1,10 @@
+{
+  "name": "writing-styles",
+  "version": "0.1.0",
+  "description": "Rewrites text in different voices: formal business style or Ilya Fainberg's personal email style.",
+  "author": {
+    "name": "Power CAT",
+    "email": "ifain@microsoft.com"
+  },
+  "keywords": ["writing", "rewrite", "style", "email", "voice"]
+}
