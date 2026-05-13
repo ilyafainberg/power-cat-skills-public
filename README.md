@@ -28,20 +28,19 @@ After installing, restart the CLI (`/restart`) or reload skills (`/skills`).
 
 ```
 .
-├── .github/plugin/marketplace.json   # Marketplace index (required)
-└── plugins/
-    └── writing-styles/
-        ├── plugin.json               # Plugin manifest
-        └── skills/
-            ├── biz/SKILL.md
-            └── ilya-voice/SKILL.md
+├── marketplace.json                   # Marketplace index
+└── plugins/                           # All Plugins
+    └── writing-styles/                # Plugin folder
+        ├── plugin.json                # Plugin manifest
+        └── skills/                    # Skills included in the plugin
+            └── biz/SKILL.md           # Skill prompt
 ```
 
 ## Add another plugin
 
 1. Create a folder under `plugins/<plugin-name>/`.
 2. Add a `plugin.json` and any of: `skills/`, `agents/`, `hooks.json`, `.mcp.json`, `lsp.json`.
-3. Append an entry to `.github/plugin/marketplace.json`.
+3. Append an entry to `marketplace.json`.
 4. Commit and push. Users run `copilot plugin marketplace update powercat-marketplace`.
 
 See: <https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace>
