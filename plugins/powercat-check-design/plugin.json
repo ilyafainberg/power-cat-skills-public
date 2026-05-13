@@ -1,0 +1,10 @@
+{
+  "name": "powercat-check-design",
+  "version": "0.1.0",
+  "description": "Evaluates a Power Platform solution design against all 5 pillars of the Power Platform Well-Architected Framework and produces an audience-tailored interactive HTML evaluation artifact.",
+  "author": {
+    "name": "Power CAT",
+    "email": "ifain@microsoft.com"
+  },
+  "keywords": ["power-platform", "well-architected", "architecture", "design-review", "evaluation", "powercat"]
+}

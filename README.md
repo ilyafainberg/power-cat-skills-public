@@ -25,6 +25,7 @@ After installing, restart the CLI (`/restart`).
 | Plugin | Description |
 |---|---|
 | `writing-styles` | Rewrites text as formal business prose. |
+| `powercat-check-design` | Evaluates a Power Platform solution design against all 5 pillars of the Power Platform Well-Architected Framework and produces an audience-tailored interactive HTML evaluation artifact. |
 
 ## Repository layout
 
