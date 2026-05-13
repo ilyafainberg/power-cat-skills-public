@@ -5,10 +5,8 @@ hosting curated plugins from the Power CAT team.
 
 ## Add this marketplace
 
-Once this repo is pushed to GitHub (e.g. as `OWNER/copilot-marketplace`):
-
 ```bash
-copilot plugin marketplace add OWNER/copilot-marketplace
+copilot plugin marketplace add https://github.com/ilyafainberg/power-cat-skills-public
 copilot plugin marketplace browse powercat-marketplace
 ```
 
@@ -24,7 +22,7 @@ After installing, restart the CLI (`/restart`) or reload skills (`/skills`).
 
 | Plugin | Description |
 |---|---|
-| `writing-styles` | Rewrites text as formal business prose or in Ilya Fainberg's personal email voice. |
+| `writing-styles` | Rewrites text as formal business prose. |
 
 ## Repository layout
 
