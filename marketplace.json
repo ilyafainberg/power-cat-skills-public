@@ -1,0 +1,19 @@
+{
+  "name": "powercat-marketplace",
+  "owner": {
+    "name": "Power CAT",
+    "email": "ifain@microsoft.com"
+  },
+  "metadata": {
+    "description": "Curated Copilot CLI plugins from the Power CAT team",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "writing-styles",
+      "description": "Rewrites text in different voices: formal business style or Ilya Fainberg's personal email style.",
+      "version": "0.1.0",
+      "source": "./plugins/writing-styles"
+    }
+  ]
+}
