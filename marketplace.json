@@ -14,6 +14,12 @@
       "description": "Rewrites text in different voices: formal business style or Ilya Fainberg's personal email style.",
       "version": "0.1.0",
       "source": "./plugins/writing-styles"
+    },
+    {
+      "name": "powercat-check-design",
+      "description": "Evaluates a Power Platform solution design against all 5 pillars of the Power Platform Well-Architected Framework and produces an audience-tailored interactive HTML evaluation artifact.",
+      "version": "0.1.0",
+      "source": "./plugins/powercat-check-design"
     }
   ]
 }
